@@ -1,0 +1,495 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    min-width: 1574px;
+    max-width: 1920px;
+    overflow: auto;
+}
+
+.float-lf{
+    float:left;
+}
+
+.float-ri{
+    float:right;
+}
+
+.clear-fl:before,.clear-fl:after{
+    content: " ";
+    display:block;
+    clear: both;
+}
+
+.header{
+    width: 1574px;
+    margin: 0 auto;
+}
+
+/*企业产品的图片*/
+.header .title{
+    border-right: 4px solid #dfdfdf;
+    padding: 20px 16px 23px 0;
+    margin: 17px 19px 6px 147px;
+}
+
+/*企业产品旁边的文字*/
+.header .word{
+    margin: 42px 0 34px;
+}
+
+.bar{
+    line-height: 1;
+    margin-top: 78px;
+    width: 718px;
+    margin-left: 150px;
+}
+
+.bar li{
+    height: 30px;
+    font-size: 18px;
+    margin-left: 14px;
+    margin-right: 33px;
+    list-style-type: none;
+}
+
+.nav{
+    font-weight: bold;
+    color: red;
+}
+
+/*这是刚刚加的红线*/
+.product{
+    border-bottom:3px solid red; /* #ccc换成链接的颜色 */
+    padding-bottom:4px;
+    margin-bottom: 2px;
+    /*这里设置你要空的距离*/
+}
+
+a{
+    color: red;
+}
+
+.contenter{
+    margin: 0 auto;
+}
+
+.slideshow-container{
+    position: relative;
+}
+
+.contenter .slide-img{
+    min-width: 1574px;
+    position: absolute;
+    display: none;
+}
+
+.slide-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.left-but,.right-but{
+    line-height: 514px;
+    width: 178px;
+    height: 188px;
+    position: absolute;
+    margin: auto;
+    top:0;
+    bottom: 0;
+}
+
+.left-but{
+    overflow: hidden;
+    background: url("../image/左箭头.png");
+    background-position-x: -50px;
+    background-position-y: -245px;
+}
+
+.right-but{
+    background:url("../image/右箭头.png");
+    background-position-x: -1718px;
+    background-position-y: -245px;
+    right: 0;
+}
+
+.sub-but{
+    width: 576px;
+    margin: 0 auto;
+    padding-top: 33px;
+}
+
+.sub1,.sub2,.sub3{
+    width: 17px;
+    height: 17px;
+    background-image: url("../image/灰色菱.png");
+}
+
+.sub1{
+    margin-left: 32px;
+    margin-right: 65px;
+}
+
+.sub2{
+    margin-left: 65px;
+    margin-right: 32px;
+}
+
+.sub1:hover,.sub2:hover,.sub3:hover{
+    background-image: url("../image/红色菱.png");
+}
+
+.active{
+    background-image: url("../image/红色菱.png");
+}
+
+/* 企业新闻模块*/
+.module{
+    width: 1264px;
+    margin: 100px auto 0;
+}
+
+.module .title div{
+    width: 260px;
+    line-height:1;
+    color: #333333;
+    text-align: center;
+    margin: 0 auto 38px;
+}
+
+.module .title div:first-child{
+    font-size:  47px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.module .title div:last-child{
+    font-size:39px;
+}
+
+.slide-new{
+    width: 1264px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.sn{
+    position: absolute;
+    display: none;
+}
+
+.msg-new{
+    width: 1264px;
+    margin: 0 auto;
+}
+
+.news-ph{
+    width: 395px;
+    height: 345px;
+    background: url("../image/新闻动态.png") no-repeat;
+    background-position-y: 38px;
+}
+
+.news-th{
+    width: 869px;
+}
+
+.news-ph .word1{
+    top: 233px;
+    left: 85px;
+    color: aliceblue;
+    line-height: 1;
+    font-size: 39px;
+    position: relative;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.news-ph .word1,.news-ph .word2{
+    width: 180px;
+}
+
+.news-ph .word1:hover{
+    font-size: 45px;
+    left: 75px;
+    color: #262a2d;
+}
+
+.news-ph .word2{
+    position: relative;
+    font-size: 30px;
+    line-height: 1;
+    top: 247px;
+    left:125px;
+    color: aliceblue;
+}
+
+.news-th .new-th{
+    border-bottom: 1px solid black;
+}
+
+.new-th .title2{
+    margin-top: 38px;
+    font-size: 39px;
+    line-height: 1;
+    font-weight: bold;
+    padding-bottom: 6px;
+    border-bottom: 4px solid red;
+}
+
+.new-th span{
+    display:inline-block;
+    margin-top: 50px;
+    font-size: 29px;
+    line-height: 14px;
+}
+
+.new-ul ul li{
+    margin-top: 29px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.new-ul li a{
+    color: #262a2d;
+    text-decoration: none;
+}
+
+.new-ul ul{
+    list-style-type: none;
+}
+
+.games{
+    margin: 0 auto;
+    width: 1264px;
+}
+
+.game-img{
+    width: 1264px;
+}
+
+.gameActive{
+    width: 1264px;
+}
+
+.special{
+    text-align: center;
+    position: relative;
+}
+
+.more-game{
+    left: 0;
+    right: 0;
+    top: 196px;
+    font-size:49px;
+    color: aliceblue;
+}
+
+.more-game .more{
+    left: 0;
+    right: 0;
+    font-size: 38px;
+    color: aliceblue;
+    font-weight: 900;
+    margin-top: 13px;
+}
+
+.more-game a{
+    color: aliceblue;
+}
+
+.work-img:first-child,.work-img:last-child{
+    width: 624px;
+}
+
+.work3-img{
+    top:25px;
+}
+
+.work-img:last-child{
+    margin-top: 28px;
+}
+
+.culture-intro{
+    margin-top:53px;
+}
+
+.show{
+    width: 371px;
+    height: 125px;
+    background-image: url("../image/不对称型.png");
+}
+
+.show img{
+    margin-left: 44px;
+    margin-top: 14px;
+}
+
+.show:first-child{
+    margin-right: 75px;
+}
+
+.show:last-child{
+    margin-left: 75px;
+}
+
+.show .speech{
+    color: aliceblue;
+    font-size: 37px;
+    line-height:18px;
+    margin-right:54px;
+    margin-top:38px;
+    font-weight: bold;
+}
+
+.show .speech a{
+    color: aliceblue;
+}
+
+.show .speech a:hover{
+    color: #535353;
+}
+
+.show .speech p{
+    font-size: 29px;
+    font-weight: bold;
+    margin-top: 28px;
+    margin-left:18px;
+}
+
+.show .speech .p1{
+    margin-left: 9px;
+}
+
+.show .speech .p2{
+    margin-left: 40px;
+}
+
+.cooper-kind .teamwork{
+    width: 295px;
+    height: 238px;
+    margin-right: 24px;
+}
+
+.cooper-kind .bg4{
+    width: 295px;
+    height: 238px;
+    margin-right: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.cooper-word a{
+   color: aliceblue;
+}
+
+.cooper-word a:hover,.details a:hover{
+    color: #BEBEBE;
+}
+
+.cooper-kind .bg1{
+     background-image: url("../image/蓝色的.png");
+}
+.cooper-kind .bg2{
+     background-image: url("../image/红色的.png");
+}
+.cooper-kind .bg3{
+      background-image: url("../image/绿色的.png");
+}
+.cooper-kind .bg4{
+      background-image: url("../image/灰色的.png");
+}
+
+.cooper-kind img{
+      margin-top: 28px;
+      margin-left: 95px;
+}
+
+.cooper-kind .cooper-word{
+    width: 295px;
+    margin-top: 6px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cooper-kind .cooper-word p{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.details{
+    width: 199px;
+    height: 34px;
+    margin: 52px auto 71px;
+    border: 1px solid #535353;
+    text-align: center;
+    border-radius: 17px;
+    font-size: 26px;
+    line-height: 34px;
+    position: relative;
+}
+
+.details a {
+    color: #262a2d;
+}
+/*最后只加了背景*/
+.footer{
+    width: 1574px;
+    background-color: #262a2d;
+    height: 117px;
+    margin: 0 auto;
+}
+
+.foot-le{
+    width: 692px;
+}
+.le-content{
+    margin-left:290px;
+    width: 402px;
+}
+.le-content .foot-tag{
+    padding-left: 54px;
+    padding-top:18px;
+    padding-bottom: 10px;
+}
+.foot-word{
+    font-size: 14px;
+    color: honeydew;
+}
+.foot-word p{
+    padding-left:27px;
+}
+.foot-ri{
+    width: 784px;
+}
+.foot-ri ul{
+    display: inline-block;
+    list-style-type: none;
+    margin-left:65px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+.foot-ri .foot-list1 a{
+    color: red;
+    font-size: 14px;
+    text-decoration: none;
+}
+.foot-ri .foot-li{
+    margin-right: 19px;
+}
+.foot-ri .foot-word{
+    margin-left:65px;
+}
+.foot-ri .first{
+    margin-left: 0;
+}
+.foot-list2 a{
+    color: honeydew;
+    font-size: 14px;
+    margin-right:30px;
+    text-decoration: none;
+}
